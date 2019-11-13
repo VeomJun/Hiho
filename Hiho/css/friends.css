@@ -1,0 +1,11 @@
+.friends__plus {
+	padding: 20px 0px;
+	border-top: 1px solid #f7f7f7;
+	border-bottom: 1px solid #f7f7f7;
+	margin: 15px 0px;
+}
+
+.friends__list .friend__column,
+.chats__list .friend__column {
+	margin-bottom: 15px;
+}

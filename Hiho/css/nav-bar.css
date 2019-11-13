@@ -1,0 +1,52 @@
+.nav {
+	position: fixed;
+	width: 100%;
+	background-color: #fcfcfc;
+	padding: 20px 50px;
+	bottom: 0px;
+	left: 0px;
+	border-top: 1px solid #f7f7f7;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav i {
+	font-size: 20px;
+}
+
+.nav__link {
+	position: relative;
+}
+
+.nav__badge {
+	position: absolute;
+	top: -10px;
+	right: -8px;
+	background-color: #e84118;
+	color: white;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+@keyframes navUp {
+	from {
+		transform: translateY(80px);
+	}
+	to {
+		transform: none;
+	}
+}
+
+.nav {
+	transform: translateY(80px);
+	animation: navUp 0.8s ease-out forwards;
+	animation-delay: 0.8s;
+}

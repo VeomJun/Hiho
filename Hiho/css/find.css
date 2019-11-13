@@ -1,0 +1,22 @@
+.find__header {
+    margin: 20px 0px;
+    padding: 30px 15px;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.find .find__header-list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.find__header-list .header-btn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-btn .header-btn__icon {
+	margin-bottom: 20px;
+}
+
+.
